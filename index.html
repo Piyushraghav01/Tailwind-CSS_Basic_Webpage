@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Basic, Project, Tailwind css," />
+    <title>Microsoft-clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Box-1 -->
+    <!-- basic-navbar -->
+    <div class="navbar flex justify-between items-center p-4">
+      <div class="flex justify-center items-center md:order-2">
+        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+        </div>
+        <div class="search md:hidden cursor-pointer">SearchIcon</div>
+      </div>
+      <div class="logo text-center flex md:order-1 cursor-pointer">
+        <div>Microsoft</div>
+        <div
+          class="features absolute w-fit md:static md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0 cursor-pointer">
+          <div class="fitem">Microsoft 365</div>
+          <div class="fitem">Office</div>
+          <div class="fitem">Windows</div>
+          <div class="fitem">Surface</div>
+          <div class="fitem">Xbox</div>
+          <div class="fitem">Support</div>
+        </div>
+      </div>
+      <div class="Card text-center md:order-3 flex cursor-pointer">
+        <div class="search hidden md:block">All Microsoft SearchIcon</div>
+        <div>Card Account</div>
+      </div>
+    </div>
+    <!-- Box-2 -->
+    <!-- Basic-slider -->
+    <div
+      class="slider flex flex-col-reverse md:flex-grow bg-[#e6e6e6] mx-10 cursor-pointer">
+      <img src="imgs/slider-img.avif" alt="#" />
+    </div>
+    <!-- This is a basic demo tailwind css -->
+  </body>
+</html>
